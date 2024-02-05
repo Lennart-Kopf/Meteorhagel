@@ -1,0 +1,40 @@
+{
+	"current_frame": 51,
+	"asteroids": [
+		{
+			"position": [
+				750,
+				641
+			],
+			"velocity": 2.5,
+			"size": [
+				114,
+				114
+			],
+			"direction": [
+				-0.761319704311593,
+				-0.6483766712543787
+			]
+		}
+	],
+	"spaceship": {
+		"position": [
+			452,
+			364
+		],
+		"direction": [
+			-0.31275063744726134,
+			0.9498352692842752
+		],
+		"score": 10,
+		"coins": 35,
+		"cooldown_level": 1,
+		"max_health_level": 0,
+		"speed_level": 0,
+		"last_shot_ticks": 234995,
+		"lasers": [],
+		"health": 70
+	},
+	"asteroid_explosions": [],
+	"items": []
+}

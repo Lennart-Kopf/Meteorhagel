@@ -1,0 +1,44 @@
+Dokumentation:
+-das beigelegte Klassendiagramm eignet sich dazu, sich einen groben Überblick über die
+ Klassenbeziehungen zu machen
+ für eine genauere Betrachtung eignet sich ein Blick in die Quelldateien unter .\code,
+ in denen jede Klasse, Methode und jedes Attribut dokumentiert sind
+
+Einstellungen:
+-einige Einstellungen wie Geschwindigkeit und Preise sind in settings.json gespeichert
+-hier kann man z.B. auch die Bildschirm-Höhe und Breite ändern, falls das Fenster zu groß ist
+ (kann aber passieren, dass dann Proportionen anders sind)
+
+Spiel:
+-das Spiel kann entweder durch die exe-Datei gestartet werden oder durch die Ausführung
+ der game.py Datei im .\code-Ordner
+
+Steuerung:
+-U drücken, um das Upgrade-Menü zu öffnen
+-LEERTASTE drücken, um zu schießen
+-W oder UP-Taste drücken, um sich zu bewegen
+-Maus bewegen, um zu zielen und Richtung zu ändern
+
+Items:
+-Herze füllen die Leben auf
+-Münzen besitzen unterschiedliche Werte und können für Upgrades genutzt werden
+
+Upgrade:
+-im Upgrade-Menü kann man mit den gesammelten Münzen einige Eigenschaften verbessern
+
+Save:
+-kann Spielstände in einer JSON-Datei speichern
+-nach dem Drücken kann es sein, dass man auf einen anderen Button zwei Mal drücken muss, da pygame die Eingabe nicht direkt erkennt,
+ wenn man die Fenster wechselt
+
+Load:
+-kann Spielstände in Form einer JSON-Datei laden
+
+High-Score:
+-der aktuelle Highscore ist in highscore.json gespeichert
+
+Schwierigkeitsgrad
+-nach 10 Punkten (falls nicht umgestellt) ändert sich der Schwierigkeitsgrad
+
+
+
